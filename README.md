@@ -11,4 +11,4 @@ $ ./cyber-dojo up --instructions=mike
 from a cyber-dojo server which will pull the repo and put it into a docker
 volume named mike which will then used as the source of instructions in the setup page.
 
-just look for jarvis file for instruction
+./cyber-dojo.rb volume create --name=default-instructions --git=https://github.com/jinhu/default-instructions
